@@ -15,7 +15,7 @@ try:
     tabela = carregar_dados()
     
     # Caixa de pesquisa
-    busca = st.text_input("Digite o código ou nome do produto (ex: SDD61C32):")
+    busca = st.text_input("Digite o código do produto (ex: SDD61C32):")
 
     if busca:
         # Filtra a tabela procurando o texto digitado em qualquer coluna
